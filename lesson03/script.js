@@ -16,7 +16,7 @@ const sizes = {
 
 // Camera
 const camera = new THREE.PerspectiveCamera(75, sizes.width / sizes.height);
-// This position z 3, will move the camera from inside the object. And show the object to us. (this value will be depends on object size. In our case its 1, 1 1 in cube so we added 3 or more then 3 here)
+// This position z 3, will move the camera from inside the object. And show the object to us. (this value will be depends on object size. In our case its 1, 1 1 in cube so we added 3 or more then 3 here.)
 camera.position.z = 3;
 scene.add(camera);
 
